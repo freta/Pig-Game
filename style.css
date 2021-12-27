@@ -57,6 +57,7 @@ body {
   font-size: 80px;
   color: #eb4d4d;
   margin-bottom: 130px;
+  font-weight: 100;
 }
 .active {
   background-color: #f7f7f7;
@@ -64,7 +65,7 @@ body {
 .active.player-name {
   font-weight: 300;
 }
-.active.player-name::after {
+.active .player-name::after {
   content: '\2022';
   font-size: 47px;
   position: absolute;
