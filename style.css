@@ -146,7 +146,7 @@ i {
 .winner {
   background-color: #f7f7f7;
 }
-.winner.player-name {
+.winner .player-name {
   font-weight: 300;
   color: #eb4d4d;
 }
